@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/btnbigdeals"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_marginTop="315dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/btnbig"
+        android:onClick="goToBigDeals" />
+
+    <ImageView
+        android:id="@+id/bgdl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/bigdealz"
+        android:layout_marginTop="830dp" />
+
+    <ImageButton
+        android:id="@+id/btnfeed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="830dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/feed"
+        android:layout_marginLeft="80dp"
+        android:onClick="goToFeed" />
+
+    <ImageButton
+        android:id="@+id/btnstore"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="830dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/store"
+        android:layout_marginLeft="170dp"
+        android:onClick="goToStore" />
+
+    <ImageButton
+        android:id="@+id/btnwish"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="830dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/wishlistbtn"
+        android:layout_marginStart="250dp"
+        android:onClick="goToFavorit"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:id="@+id/btntrns"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="830dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/btntransaksi"
+        android:layout_marginLeft="330dp"
+        android:onClick="goToTransaksi"
+        android:adjustViewBounds="true"/>
+
+</RelativeLayout>
